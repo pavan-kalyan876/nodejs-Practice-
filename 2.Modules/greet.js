@@ -4,7 +4,7 @@ function add(a, b) {
 function subtract(a, b) {
   return a - b;
 }
-module.export = {
+module.exports = {
   add,
   subtract,
 };
