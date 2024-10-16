@@ -33,7 +33,7 @@ import * as fs from "fs/promises";
 // readme.md file name
 // Hello Nodejs content inside readme.md
 try {
-  await fs.writeFile("Readme.md", "Hello NodeJS");
+  await fs.writeFile("Readme.md", "Hello pavan");
   console.log("file created inside the currect project");
 } catch (error) {
   console.log(error);
