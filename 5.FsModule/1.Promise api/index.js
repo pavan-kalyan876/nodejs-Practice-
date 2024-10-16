@@ -10,12 +10,21 @@ import * as fs from "fs/promises";
 
 // reading a directory or content
 
-try {
-  const files = await fs.readdir("c:\\sampleNode");
+// try {
+//   const files = await fs.readdir("c:\\sampleNode");
 
-  for (const file of files) {
-    console.log(file);
-  }
+//   for (const file of files) {
+//     console.log(file);
+//   }
+// } catch (error) {
+//   console.log("Error:", error);
+// }
+
+// remove folder or directory
+
+try {
+  await fs.rmdir("c:\\samplenode\\course");
+  console.log("inside folder is deleted");
 } catch (error) {
-  console.log("Error:", error);
+  console.log(error);
 }
