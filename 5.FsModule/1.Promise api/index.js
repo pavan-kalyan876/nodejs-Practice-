@@ -22,9 +22,17 @@ import * as fs from "fs/promises";
 
 // remove folder or directory
 
+// try {
+//   await fs.rmdir("c:\\samplenode\\course");
+//   console.log("inside folder is deleted");
+// } catch (error) {
+//   console.log(error);
+// }
+
+// create and write files
 try {
-  await fs.rmdir("c:\\samplenode\\course");
-  console.log("inside folder is deleted");
+  await fs.writeFile("Readme.md", "Hello NodeJS");
+  console.log("file created inside the currect project");
 } catch (error) {
   console.log(error);
 }
