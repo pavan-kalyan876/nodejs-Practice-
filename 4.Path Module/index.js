@@ -22,3 +22,6 @@ console.log(joinPath); //\users\pavan\documents\file.txt
 //path.join is commonly used when you need to construct paths dynamically in a cross-platform way
 const joinpat = path.join("/users", "pavan", "..", "documents", "file.txt");
 console.log(joinpat); //Output: /users/documents/file.txt
+
+const joinp = path.join("c:", "pavan", "..", "documents", "index.js");
+console.log(joinp);
