@@ -24,4 +24,4 @@ const joinpat = path.join("/users", "pavan", "..", "documents", "file.txt");
 console.log(joinpat); //Output: /users/documents/file.txt
 
 const joinp = path.join("c:", "pavan", "..", "documents", "index.js");
-console.log(joinp);
+console.log(joinp); //c:\documents\index.js
