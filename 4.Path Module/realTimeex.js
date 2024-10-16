@@ -14,3 +14,6 @@ console.log("file Extension:", fileExtension); //file Extension: .png
 
 const unnormalized = path.normalize(filepath1);
 console.log("normalized:", unnormalized); //  \users\pavan\documents\file.txt
+
+const parse = path.parse(filePath);
+console.log(parse); // output u get in json format
