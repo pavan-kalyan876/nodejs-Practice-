@@ -48,3 +48,11 @@ try {
 } catch (error) {
   console.log(error);
 }
+
+// append data to a file
+try {
+  await fs.appendFile("Readme.md", "node js is good");
+  console.log("data is uploaded");
+} catch (error) {
+  console.log(error);
+}
