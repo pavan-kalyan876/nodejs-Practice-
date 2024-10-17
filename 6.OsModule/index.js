@@ -10,3 +10,6 @@ console.log(os.freemem()); // return free memory in bytes
 console.log(os.cpus()); // return the of cpu,model,sys,idle in arr obj
 console.log(os.networkInterfaces()); // return the network interface details
 console.log(os.homedir()); // return home directory of your pc
+console.log(os.tmpdir()); // return the temp directory
+console.log(os.userInfo()); //  details about user
+console.log(os.endianness()); // return the cpu be or le 
