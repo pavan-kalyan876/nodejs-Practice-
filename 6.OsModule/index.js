@@ -9,3 +9,4 @@ console.log(os.totalmem()); // return memeory in bytes
 console.log(os.freemem()); // return free memory in bytes
 console.log(os.cpus()); // return the of cpu,model,sys,idle in arr obj
 console.log(os.networkInterfaces()); // return the network interface details
+console.log(os.homedir()); // return home directory of your pc
